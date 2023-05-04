@@ -107,3 +107,32 @@ ul{
     flex-direction: column;
     align-items: center;
 }
+
+.pics .text{
+    font-size: 18px;
+}
+
+.quote{
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    padding-left: 256px;
+    padding-right: 256px;
+}
+
+.quote .text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote .author{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: auto;
+}
