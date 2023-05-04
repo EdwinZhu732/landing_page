@@ -70,6 +70,20 @@ ul{
     text-decoration: none;
 }
 
+.button2{
+    background-color: #3882f6;
+    text-align: center;
+    border: solid white 2px;
+    border-radius: 4px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.button2 a{
+    color:white;
+    text-decoration: none;
+}
+
 .intro img{
       height: 300px;
       width: auto;
@@ -119,6 +133,7 @@ ul{
     height: 400px;
     background-color: #e5e7eb;
     display: flex;
+    flex: 1;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -138,4 +153,31 @@ ul{
     font-size: 18px;
     font-weight: bold;
     margin-left: auto;
+}
+
+.call{
+    display: flex;
+    height: 300px;
+    padding: 16px;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    background-color: #3882f6;
+    border: 0;
+    border-radius: 4px;
+    display: flex;
+    width: 500px;
+    height: 200px;
+}
+
+.footer{
+    background-color: #1f2937;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
