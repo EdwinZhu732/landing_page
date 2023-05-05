@@ -26,12 +26,17 @@ body{
     color: #e5e7eb;
 }
 
+
 ul{
     list-style-type: none;
     display: flex;
     gap: 16px;
 }
 
+.header a{
+    color: white;
+    text-decoration: none;
+}
 .intro{
     background-color: #1F2937;
     display: flex;
